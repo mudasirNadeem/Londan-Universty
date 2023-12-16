@@ -113,6 +113,26 @@
     width: 2px;
     background-color: #04043f;
   }
+  .w-h-240{
+    width: 240px;
+    height: 240px;
+  }
+  .row{
+    width: 100%;
+  }
+  .main-text-color{
+    color: #04043f;
+  }
+  ::marker{
+    color: red;
+  }
+ 
+  .vp-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white !important;
+}
 @media screen and (max-width:992px) {
 .md-bg-browon{
     background-color: #eb0000 !important;
@@ -177,4 +197,8 @@ body.no-scroll {
     position: relative;
     top: 10px;
 }
+.w-h-240{
+    width: 120px;
+    height: 120px;
+  }
 }
