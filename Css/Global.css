@@ -40,11 +40,7 @@
  .position-lg-static{
     position: static !important;
  }
-.video{
-    background-image: url('../assets/image.png') ;
-    background-size: cover;
-    height: 100vh;
-}
+
 .fixed{
     position: fixed;
     top: 72px;

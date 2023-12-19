@@ -1,0 +1,5 @@
+    .video{
+        background-image: url('../assets/why.png') !important ;
+        background-size: cover;
+        height: 100vh;
+    }
