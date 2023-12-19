@@ -52,6 +52,7 @@
 .btn-secondary{
     background-color: #04043f;
     border: 0;
+    font-weight: 500;
 }
 .btn-secondary:hover{
     background-color: #04043f;
@@ -132,6 +133,22 @@
     align-items: center;
     justify-content: center;
     background: white !important;
+}
+.bg-image-2{
+  background-image: url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'1512\' height=\'539\' viewBox=\'0 0 1512 539\' fill=\'none\'%3E%3Cmask id=\'mask0_1884_5384\' style=\'mask-type:alpha\' maskUnits=\'userSpaceOnUse\' x=\'0\' y=\'0\' width=\'1512\' height=\'539\'%3E%3Crect width=\'1512\' height=\'539\' fill=\'%23C4C4C4\'/%3E%3C/mask%3E%3Cg mask=\'url(%23mask0_1884_5384)\'%3E%3Cpath opacity=\'0.2\' fill-rule=\'evenodd\' clip-rule=\'evenodd\' d=\'M-351 516.939H800.668L-351 -92V516.939ZM896.55 0.102295H1534.58V337.176L896.55 0.102295ZM1281.33 596H1679.04L787.035 131.521H391.943L1281.33 596Z\' fill=\'%2359CBE8\'/%3E%3C/g%3E%3C/svg%3E');
+  background-size: cover;
+}
+.fs-18{
+  font-size: 18px;
+}
+.hover-underline:hover .hover-text-decoration{
+  text-decoration: underline;
+}
+.hover-text-decoration:hover{
+  text-decoration: underline !important;
+}
+.hover-red-color:hover {
+background: #eb0000 !important;
 }
 @media screen and (max-width:992px) {
 .md-bg-browon{
