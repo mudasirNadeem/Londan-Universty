@@ -162,7 +162,7 @@ right: 0%;
 top: 100px;
 height: 100vh;
 background-color: #04043f;
-margin-top: 18px !important;
+margin-top: 15px !important;
 transition: .5s;
  }
 .md-w-100{
@@ -173,7 +173,7 @@ body.no-scroll {
   }
   .fixed{
     position: fixed;
-    top: 60px;
+    top: 55px;
 }
 .nav-link{
     color: white;
