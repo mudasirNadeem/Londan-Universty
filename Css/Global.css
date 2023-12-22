@@ -146,6 +146,9 @@
 .hover-red-color:hover {
 background: #eb0000 !important;
 }
+.hover-underline:hover{
+  text-decoration: underline !important;
+}
 @media screen and (max-width:992px) {
 .md-bg-browon{
     background-color: #eb0000 !important;
@@ -161,7 +164,8 @@ transition: .5s;
 right: 0%;
 top: 100px;
 height: 100vh;
-background-color: #04043f;
+overflow: auto;
+ background-color: #04043f;
 margin-top: 15px !important;
 transition: .5s;
  }

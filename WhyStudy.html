@@ -84,10 +84,10 @@
               <a class="nav-link  py-3 active" href="WhyStudy.html"  onclick="handleClick(this)">Why study in the UK?</a>
             </li>
             <li class="nav-item px-lg-4  py-lg-0">
-              <a class="nav-link  py-3" href="#"  onclick="handleClick(this)">Plan your studies</a>
+              <a class="nav-link  py-3" href="Plan.html"  onclick="handleClick(this)">Plan your studies</a>
             </li>
             <li class="nav-item px-lg-4 x py-lg-0">
-              <a class="nav-link  py-3" href="#"  onclick="handleClick(this)">Scholarships and funding</a>
+              <a class="nav-link  py-3" href="Scholarship.html"  onclick="handleClick(this)">Scholarships and funding</a>
             </li>
             <li class="nav-item px-lg-4 px-0 py-lg-0">
               <a class="nav-link py-3 " href="#"  onclick="handleClick(this)">More</a>
@@ -161,7 +161,7 @@
         </div>
        </div> 
       <div class="mb-3 mt-5  ps-lg-5  ps-4 pt-4 pb-5" style="background-color: #e0f6fa; z-index: 1; position: relative;">
-        <h3>Search for UK courses and scholarships</h3>
+        <h3 class="fw-bold">Search for UK courses and scholarships</h3>
        
       <ul class="nav nav-pills pt-3 " id="pills-tab" role="tablist">
         <li class="nav-item" role="presentation">
@@ -177,7 +177,7 @@
       <div class="tab-content  pt-4" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
           <div class="container-fluid ps-0">
-            <h5 style="position: relative; top: 10px;">Search by course keyword or subject:</h5>
+            <h5 >Search by course keyword or subject:</h5>
             <div class="row row-cols-1  row-cols-lg-5 g-2 g-lg-3">
               <div class="col py-0">
                 <div class="p-0 py-lg-3 px-0 ">
@@ -339,7 +339,7 @@
 
       </div>
     </div>
-    <div class="row px-3 px-lg-5 mt-5 p-0 flex-lg-row flex-sm-column-reverse ">
+    <div class="row px-3 px-lg-5 mt-5 p-0 flex-column-reverse flex-lg-row">
       <div class="col-12  col-lg-6 col-md-12 pt-5 pt-lg-0 ">
         <p>Life and learning in the UK</p>
         <h1 class="main-text-color">Great futures happen when you study in the UK</h1>
@@ -385,7 +385,7 @@
         </a>
       </div>
       
-      <div class="row px-3 px-lg-5 px-md-5 m-0 pt-5 ">
+      <div class="row flex-column-reverse flex-lg-row px-3 px-lg-5 px-md-3 m-0 pt-5 ">
         <div class="col-12 col-lg-6 px-0 py-5">
           <p class="fs-18 m-0"> Planning your budget</p>
           <h2>How much does it cost to study in the UK?</h2>
@@ -416,7 +416,7 @@
           <p class="fs-13 text-dark">Need information and advice about moving to the UK once you have accepted your offer? Here you will find advice on visas, accommodations and life in the UK.</p>
         </a>
       </div>
-      <div class="row px-3   px-lg-5 px-md-5 m-0 pt-5 ">
+      <div class="row px-3   px-lg-5 px-md-3 m-0 pt-5 ">
         <div class="col-12 col-lg-6 px-0 py-5">
           <p class="fs-18 m-0"> Planning your budget</p>
           <h2>How much does it cost to study in the UK?</h2>
@@ -478,11 +478,8 @@
         }
 
         function handleClick(link) {
-        // Remove 'active' class from all links
         const links = document.querySelectorAll('.nav-link');
         links.forEach((el) => el.classList.remove('active'));
-
-        // Add 'active' class to the clicked link
         link.classList.add('active');
     }
   </script>
