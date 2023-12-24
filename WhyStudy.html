@@ -75,7 +75,7 @@
        <div class="d-block d-lg-none   mx-4" onclick="nav_manu()" style="z-index: 9999;">
         <button class="btn btn-secondary" ><i class="fa-solid fa-bars"></i></button>
        </div>
-       <div class="d-flex flex-lg-row p-0 flex-column  justify-content-lg-center position-lg-static position-fixed  right-50 right-0 md-w-100" id="nav">
+       <div class="d-flex flex-lg-row p-0 flex-column sm-scroll justify-content-lg-center position-lg-static position-fixed  right-50 right-0 md-w-100" id="nav">
         <ul class="d-flex  px-4 flex-lg-row m-0 flex-column ">
             <li class="nav-item px-lg-4  py-lg-0">
                 <a class="nav-link  py-3 " href="Index.html"  onclick="handleClick(this)">Home</a>
@@ -93,7 +93,15 @@
               <a class="nav-link  py-3 " href="Moving.html" onclick="handleClick(this)">Moving to the UK</a>
             </li>
             <li class="nav-item px-lg-4 px-0 py-lg-0">
-              <a class="nav-link py-3 " href="#"  onclick="handleClick(this)">More</a>
+              <a class="nav-link py-3 " href="#"  onclick="handleClick(this)">More <i class="fa-solid fa-caret-down  " id="dropdownIcon"></i></a>
+              <ul class="m-0 p-0 pb-2  w-sm-100 position-fixed sm-positon-relative" id="dropdown" style="display: none;  border-bottom: solid 3px #0545d6; background-color: #04043f;">
+                <li class="nav-item p-3 px-5 nav-link" >
+                  <a href="After.html" class=" text-decoration-none d-block text-white" >After Your Studies</a>
+                </li>
+                <li class="nav-item p-3 px-5 nav-link" >
+                  <a href="Blogs.html" class=" text-decoration-none  d-block text-white" >Blog</a>
+                </li>
+              </ul>
             </li>
           </ul>
           
@@ -484,6 +492,16 @@
         const links = document.querySelectorAll('.nav-link');
         links.forEach((el) => el.classList.remove('active'));
         link.classList.add('active');
+        var dropdown = document.getElementById('dropdown');
+        var dropdownIcon = document.getElementById('dropdownIcon');
+if (dropdown.style.display === 'none') {
+  dropdown.style.display = 'block';
+} else {
+  dropdown.style.display = 'none';
+}
+dropdownIcon.classList.toggle('icon-rotate');
+
+
     }
   </script>
 </body>

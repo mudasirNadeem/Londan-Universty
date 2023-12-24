@@ -146,12 +146,18 @@
 .hover-red-color:hover {
 background: #eb0000 !important;
 }
+.icon-rotate{
+  transform: rotate(180deg);
+}
 
 @media screen and (max-width:992px) {
 .md-bg-browon{
     background-color: #eb0000 !important;
 }    .position-fixed{
     position: fixed !important;
+}
+.w-sm-100{
+  width: 100%;
 }
 .right-50{
     right: -100% !important;
@@ -161,8 +167,6 @@ transition: .5s;
 .right-0{
 right: 0%;
 top: 100px;
-height: 100vh;
-overflow: auto;
  background-color: #04043f;
 margin-top: 15px !important;
 transition: .5s;
@@ -177,8 +181,15 @@ body.no-scroll {
     position: fixed;
     top: 55px;
 }
+.sm-positon-relative{
+  position: relative !important;
+}
 .nav-link{
     color: white;
+}
+.sm-scroll{
+  overflow-y: scroll !important;
+  height: calc(100vh - 108px);
 }
 .nav-link:hover{
     color: white;
@@ -217,3 +228,4 @@ body.no-scroll {
     height: 120px;
   }
 }
+
