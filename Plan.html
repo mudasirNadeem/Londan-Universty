@@ -78,19 +78,19 @@
        <div class="d-flex flex-lg-row p-0 flex-column sm-scroll justify-content-lg-center position-lg-static position-fixed  right-50 right-0 md-w-100" id="nav">
         <ul class="d-flex  px-4 flex-lg-row m-0 flex-column ">
             <li class="nav-item px-lg-4  py-lg-0">
-                <a class="nav-link  py-3 " href="Index.html"  onclick="handleClick(this)">Home</a>
+                <a class="nav-link  py-3 " href="Index.html" >Home</a>
               </li>
             <li class="nav-item px-lg-4  py-lg-0">
-              <a class="nav-link  py-3 " href="WhyStudy.html"  onclick="handleClick(this)">Why study in the UK?</a>
+              <a class="nav-link  py-3 " href="WhyStudy.html"  >Why study in the UK?</a>
             </li>
             <li class="nav-item px-lg-4  py-lg-0">
-              <a class="nav-link  py-3 active " href="Plan.html"  onclick="handleClick(this)">Plan your studies</a>
+              <a class="nav-link  py-3 active " href="Plan.html"  >Plan your studies</a>
             </li>
             <li class="nav-item px-lg-4 x py-lg-0">
-              <a class="nav-link  py-3 " href="Scholarship.html"  onclick="handleClick(this)">Scholarships and funding</a>
+              <a class="nav-link  py-3 " href="Scholarship.html"  >Scholarships and funding</a>
             </li>
             <li class="nav-item px-lg-4 x py-lg-0">
-              <a class="nav-link  py-3 " href="Moving.html" onclick="handleClick(this)">Moving to the UK</a>
+              <a class="nav-link  py-3 " href="Moving.html" >Moving to the UK</a>
             </li>
             <li class="nav-item px-lg-4 px-0 py-lg-0">
               <a class="nav-link py-3 " href="#"  onclick="handleClick(this)">More <i class="fa-solid fa-caret-down  " id="dropdownIcon"></i></a>
@@ -428,12 +428,7 @@
         }
 
         function handleClick(link) {
-        // Remove 'active' class from all links
-        const links = document.querySelectorAll('.nav-link');
-        links.forEach((el) => el.classList.remove('active'));
-
-        // Add 'active' class to the clicked link
-        link.classList.add('active');
+     
         var dropdown = document.getElementById('dropdown');
         var dropdownIcon = document.getElementById('dropdownIcon');
 if (dropdown.style.display === 'none') {
