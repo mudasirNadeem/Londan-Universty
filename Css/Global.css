@@ -150,6 +150,7 @@ background: #eb0000 !important;
   transform: rotate(180deg);
 }
 
+
 @media screen and (max-width:992px) {
 .md-bg-browon{
     background-color: #eb0000 !important;
@@ -163,6 +164,9 @@ background: #eb0000 !important;
     right: -100% !important;
 transition: .5s;
 
+}
+.row{
+  margin: 0;
 }
 .right-0{
 right: 0%;
