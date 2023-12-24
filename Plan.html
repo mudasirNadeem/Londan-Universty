@@ -14,7 +14,7 @@
 </head>
 <body>
     <div class="container-fluid m-0 p-0">
-        <div class="d-none d-lg-block sticky-top z-index-100" >
+      <div class="d-none d-lg-block sticky-top z-index-100" >
         <header class="bg-brown  px-5 pt-2 pb-2 d-flex justify-content-between"> 
             <div class="d-flex">
                 <img src="https://study-uk.britishcouncil.org/public/images/bc-logo-white.svg" alt="" width="100" height="60">
@@ -45,9 +45,68 @@
             </div>
         </header>
     </div>
-    <div class="d-block d-lg-none   mx-4" onclick="nav_manu()" style="z-index: 9999;">
-      <button class="btn btn-secondary" ><i class="fa-solid fa-bars"></i></button>
-     </div>
+      <div class="d-block d-lg-none sticky-top z-index-100" >
+        <header class="bg-red-brown  px-4 pt-2 pb-2 d-flex justify-content-between align-items-center"> 
+            <h3 class="text-white pt-2" style="white-space: nowrap;">Study UK</h3>
+            <div class="d-flex align-items-center">
+               
+                <div class="mx-3 ">
+                    <select class="border-0 bg-brown custom-selected custom-select text-white  outline-none pt-2 pb-2 pe-4" style="border-radius: 10px;">
+                        <option class="border-bootom-dark text-white">ไทย </option>
+                        <option class="border-bootom-dark text-white">English</option>
+                        <option class="border-bootom-dark text-white">中文</option>
+                        <option class="border-bootom-dark text-white">Bahasa Indonesia</option>
+                        <option class="border-bootom-dark text-white">Français</option>
+                    </select>
+                </div>
+                <div>
+                        <button type="button"  class="btn btn-secondary border-0 pt-2 pb-2 bg-brown" >
+                          <i class="fas fa-search"></i>
+                        </button>
+                </div>
+            </div>
+        </header>
+      </div>
+      <div class="d-flex bg-white align-items-center md-bg-browon  fixed justify-content-lg-center justify-content-between  w-100 z-index-100">
+       <div class="d-block d-lg-none mx-4">
+        <img src="https://study-uk.britishcouncil.org/public/images/bc-logo-white.svg" alt="" width="80" height="60">
+        <img src="https://study-uk.britishcouncil.org/public/images/suk-great-logo.svg" alt=""  class="mx-2" width="80" height="60">
+       </div>
+       <div class="d-block d-lg-none   mx-4" onclick="nav_manu()" style="z-index: 9999;">
+        <button class="btn btn-secondary" ><i class="fa-solid fa-bars"></i></button>
+       </div>
+       <div class="d-flex flex-lg-row p-0 flex-column sm-scroll justify-content-lg-center position-lg-static position-fixed  right-50 right-0 md-w-100" id="nav">
+        <ul class="d-flex  px-4 flex-lg-row m-0 flex-column ">
+            <li class="nav-item px-lg-4  py-lg-0">
+                <a class="nav-link  py-3 active" href="Index.html"  onclick="handleClick(this)">Home</a>
+              </li>
+            <li class="nav-item px-lg-4  py-lg-0">
+              <a class="nav-link  py-3 " href="WhyStudy.html"  onclick="handleClick(this)">Why study in the UK?</a>
+            </li>
+            <li class="nav-item px-lg-4  py-lg-0">
+              <a class="nav-link  py-3 " href="Plan.html"  onclick="handleClick(this)">Plan your studies</a>
+            </li>
+            <li class="nav-item px-lg-4 x py-lg-0">
+              <a class="nav-link  py-3 " href="Scholarship.html"  onclick="handleClick(this)">Scholarships and funding</a>
+            </li>
+            <li class="nav-item px-lg-4 x py-lg-0">
+              <a class="nav-link  py-3 " href="Moving.html" onclick="handleClick(this)">Moving to the UK</a>
+            </li>
+            <li class="nav-item px-lg-4 px-0 py-lg-0">
+              <a class="nav-link py-3 " href="#"  onclick="handleClick(this)">More <i class="fa-solid fa-caret-down  " id="dropdownIcon"></i></a>
+              <ul class="m-0 p-0 pb-2  w-sm-100 position-fixed sm-positon-relative" id="dropdown" style="display: none;  border-bottom: solid 3px #0545d6; background-color: #04043f;">
+                <li class="nav-item p-3 px-5 nav-link" >
+                  <a href="After.html" class=" text-decoration-none d-block text-white "  >After Your Studies</a>
+                </li>
+                <li class="nav-item p-3 px-5 nav-link" >
+                  <a href="Blogs.html" class=" text-decoration-none  d-block text-white" >Blog</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          
+        </div>
+       </div>
      <div class="d-flex flex-lg-row p-0 flex-column sm-scroll justify-content-lg-center position-lg-static position-fixed  right-50 right-0 md-w-100" id="nav">
       <ul class="d-flex  px-4 flex-lg-row m-0 flex-column ">
           <li class="nav-item px-lg-4  py-lg-0">
