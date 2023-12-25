@@ -236,3 +236,9 @@ body.no-scroll {
   }
 }
 
+.border-radius-0{
+  border-radius: 0 !important;
+}
+.btn-secondary{
+  font-weight: bold;
+}
